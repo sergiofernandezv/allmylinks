@@ -1,35 +1,45 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react';
+import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="App">
+      <div className="container">
+        <h1>My Test Project Demo</h1>
+        <div className="links">
+          <LinkButton text="X - Twitter" url="https://instagram.com"/>
+          <LinkButton text="Instagram" url="https://instagram.com"/>
+          <LinkButton text="Tik tok" url="https://instagram.com"/>
+          <LinkButton text="Telegram" url="https://instagram.com"/>
+        </div>
+        <div className="social-media">
+          <a href="https://facebook.com">
+            <img src="public/assets/x.jpg" alt="Facebook" />
+          </a>
+          <a href="https://instagram.com">
+            <img src="public/assets/instagram.jpg" alt="Instagram" />
+          </a>
+          <a href="https://instagram.com">
+            <img src="public/assets/telegram.jpg" alt="Instagram" />
+          </a>
+          <a href="https://instagram.com">
+            <img src="public/assets/tiktok.jpg" alt="Instagram" />
+          </a>
+          <a href="https://instagram.com">
+            <img src="public/assets/fondo.jpg" alt="Instagram" />
+          </a>
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    </div>
+  );
 }
 
-export default App
+function LinkButton({ text, url }) {
+  return (
+    <a href={url} className="link-button" target="_blank" rel="noopener noreferrer">
+      {text}
+    </a>
+  );
+}
+
+export default App;
