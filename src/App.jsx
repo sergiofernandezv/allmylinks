@@ -5,28 +5,29 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>My Test Project Demo</h1>
+        <h1>Sergio Fernández</h1>
         <div className="links">
-          <LinkButton text="X - Twitter" url="https://instagram.com"/>
-          <LinkButton text="Instagram" url="https://instagram.com"/>
-          <LinkButton text="Tik tok" url="https://instagram.com"/>
-          <LinkButton text="Telegram" url="https://instagram.com"/>
+          <LinkButton text="X - Twitter" url="https://x.com/Sergiofernzv?mx=2"/>
+          <LinkButton text="Instagram" url="https://www.instagram.com/sergiofernandezv/?hl=es"/>
+          <LinkButton text="TikTok" url="https://www.tiktok.com/@sergiofernzv?is_from_webapp=1&sender_device=pc"/>
+          <LinkButton text="Telegram" url="https://t.me/sergiofernandezvoficial"/>
+          <LinkButton text="El mejor contenido 🔞" url="https://onlyfans.com/sergiofernandezv"/>
         </div>
         <div className="social-media">
-          <a href="https://facebook.com">
-            <img src="/assets/x.jpg" alt="Facebook" />
+          <a href="https://x.com/Sergiofernzv?mx=2">
+            <img src="/assets/x.jpg" alt="Twitter" />
           </a>
-          <a href="https://instagram.com">
+          <a href="https://www.instagram.com/sergiofernandezv/?hl=es">
             <img src="/assets/instagram.jpg" alt="Instagram" />
           </a>
-          <a href="https://instagram.com">
-            <img src="/assets/telegram.jpg" alt="Instagram" />
+          <a href="https://t.me/sergiofernandezvoficial">
+            <img src="/assets/telegram.jpg" alt="Telegram" />
           </a>
-          <a href="https://instagram.com">
-            <img src="/assets/tiktok.jpg" alt="Instagram" />
+          <a href="https://www.tiktok.com/@sergiofernzv?is_from_webapp=1&sender_device=pc">
+            <img src="/assets/tiktok.jpg" alt="TikTok" />
           </a>
-          <a href="https://instagram.com">
-            <img src="/assets/fondo.jpg" alt="Instagram" />
+          <a href="https://onlyfans.com/sergiofernandezv">
+            <img src="/assets/only.png" alt="Only" />
           </a>
         </div>
       </div>
