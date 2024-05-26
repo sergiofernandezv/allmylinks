@@ -16,7 +16,7 @@ html, body {
   justify-content: center;
   align-items: center;
   padding: 5%;
-  background-image: url('public/assets/fondo.jpg');
+  background-image: url('/assets/fondo.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
