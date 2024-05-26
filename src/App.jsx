@@ -14,19 +14,19 @@ function App() {
         </div>
         <div className="social-media">
           <a href="https://facebook.com">
-            <img src="public/assets/x.jpg" alt="Facebook" />
+            <img src="/assets/x.jpg" alt="Facebook" />
           </a>
           <a href="https://instagram.com">
-            <img src="public/assets/instagram.jpg" alt="Instagram" />
+            <img src="/assets/instagram.jpg" alt="Instagram" />
           </a>
           <a href="https://instagram.com">
-            <img src="public/assets/telegram.jpg" alt="Instagram" />
+            <img src="/assets/telegram.jpg" alt="Instagram" />
           </a>
           <a href="https://instagram.com">
-            <img src="public/assets/tiktok.jpg" alt="Instagram" />
+            <img src="/assets/tiktok.jpg" alt="Instagram" />
           </a>
           <a href="https://instagram.com">
-            <img src="public/assets/fondo.jpg" alt="Instagram" />
+            <img src="/assets/fondo.jpg" alt="Instagram" />
           </a>
         </div>
       </div>
